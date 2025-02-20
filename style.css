@@ -1,4 +1,5 @@
 .header {
+  padding: 4px;
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
@@ -56,4 +57,23 @@
 .res-card:hover {
   cursor: pointer;
   border: 2px solid gray;
+}
+
+.shimmer-container {
+  margin: 34px;
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.shimmer-cards {
+  background-color: #c1c1c17b;
+  margin: 4px;
+  padding: 4px;
+  width: 250px;
+  height: 380px;
+  border: 2px solid transparent;
+  border-radius: 4px;
 }

@@ -9,7 +9,7 @@ const RestaurantCard = (props) => {
       <img className="res-logo" alt="res-loog" src={LOGO_URL} />
       <h3>{name}</h3>
       <p>{cuisines}</p>
-      <p>{cost}</p>
+      <p>Rs. {cost}</p>
       <p>{star_ratings} stars</p>
       <p>{delivery_time}</p>
     </div>
