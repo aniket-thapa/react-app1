@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div>
       <h1>About Us Page</h1>
-      <User />
-      <UserClass />
+      <User name={'Aniket Thapa (functional)'} />
+      <UserClass name={'Aniket Thapa (class)'} />
     </div>
   );
 };
