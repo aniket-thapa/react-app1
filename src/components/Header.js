@@ -8,24 +8,24 @@ const Header = () => {
   // State Variable
   const [btnNameReact, setBtnNameReact] = useState('Login');
   return (
-    <div className="header">
+    <div className="header bg-orange-100 flex justify-between items-center">
       <div className="logo">
-        <img src={LOGO_URL}></img>
+        <img className="w-24" src={LOGO_URL}></img>
       </div>
       <div className="nav-items">
-        <ul>
-          <li> Online Status: {onlineStatus ? '🟢' : '🔴'}</li>
-          <li>
+        <ul className="flex">
+          <li className="px-4"> Online Status: {onlineStatus ? '🟢' : '🔴'}</li>
+          <li className="px-4">
             <Link to="/">Home </Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/about">About Us</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/contact">Contact Us</Link>
           </li>
-          <li>Cart</li>
-          <li>
+          <li className="px-4">Cart</li>
+          <li className="px-4">
             <button
               className="login"
               onClick={() => {
